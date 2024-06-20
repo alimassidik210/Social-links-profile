@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social links profile</title>
+
+    <style>
+      /* initial google fonts */
+      @font-face {
+        font-family: "inter";
+        src: url(./assets/fonts/static/Inter-Regular.ttf);
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-size: 14px;
+        background-color: hsl(0, 0%, 8%);
+        font-family: inter, serif;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container {
+        background-color: hsl(0, 0%, 12%);
+        max-width: 360px;
+        padding: 1.3rem;
+        border-radius: 0.8rem;
+        text-align: center;
+
+        color: hsl(0, 0%, 100%);
+      }
+
+      .img-profile img {
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        margin-top: 5px;
+      }
+
+      .container h2 {
+        font-size: 20px;
+        margin-top: 1.3rem;
+        color: hsl(0, 0%, 90%);
+        font-weight: 600;
+      }
+
+      .container p:first-of-type {
+        font-size: 12px;
+        color: hsl(75, 94%, 57%);
+        margin-top: 8px;
+        font-weight: 700;
+      }
+
+      .container p:last-of-type {
+        font-size: 13px;
+        color: hsl(0, 0%, 80%);
+      }
+
+      .container p {
+        margin-top: 1.3rem;
+      }
+
+      .mylink {
+        margin-top: 1.2rem;
+      }
+
+      .mylink .button {
+        display: block;
+        outline: none;
+        background-color: hsl(0, 0%, 20%);
+        
+        padding: 12px;
+        width: 270px;
+        border-radius: 8px;
+        margin-top: 1rem;
+      }
+
+      .mylink .button a {
+        text-decoration: none;
+        color: hsl(0, 0%, 100%);
+        font-size: 11px;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="img-profile">
+        <img
+          src="./assets/images/alim.jpeg"
+          alt="my photo profile"
+          width="200px"
+        />
+      </div>
+      <h2>Alim Assidik</h2>
+      <p>Bekasi,Indonesia</p>
+      <p>"Front-end developer and avid reader."</p>
+      <div class="mylink">
+        <div class="button"><a href="https://github.com/alimassidik210" target="_blank">GitHub</a></div class="button">
+        <div class="button"><a href="https://www.frontendmentor.io/profile/alimassidik210" target="_blank">Frontend Mentor</a></div class="button">
+        <div class="button"><a href="https://www.linkedin.com/in/alimassidik24/" target="_blank">LinkedIn</a></div class="button">
+        <div class="button"><a href="https://x.com/?lang=id" target="_blank">Twitter</a></div class="button">
+        <div class="button"><a href="https://www.instagram.com/alim.assidik210" target="_blank">Instagram</a></div class="button">
+      </div>
+    </div>
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  </body>
+</html>
