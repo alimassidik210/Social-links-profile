@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Blog preview card](./Screenshot.png)
+![Link Tree Social Media](./Screenshot.png)
 
 ### Links
 
