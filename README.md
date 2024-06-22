@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/alimassidik210/blog-preview-card.git)
-- Live Site URL: (https://blog-preview-card-neon-sigma.vercel.app/)
+- Solution URL: (https://github.com/alimassidik210/Social-links-profile.git)
+- Live Site URL: (https://social-links-profile-indol-tau.vercel.app/)
 
 ## My process
 
